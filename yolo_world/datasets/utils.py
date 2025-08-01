@@ -14,6 +14,7 @@ def yolow_collate(data_batch: Sequence,
        data_batch (Sequence): Batch of data.
        use_ms_training (bool): Whether to use multi-scale training.
     """
+
     batch_imgs = []
     batch_bboxes_labels = []
     batch_masks = []
@@ -49,12 +50,16 @@ def yolow_collate(data_batch: Sequence,
     if hasattr(data_batch[0]['data_samples'], 'texts'):
         batch_texts = [meta['data_samples'].texts for meta in data_batch]
         collated_results['data_samples']['texts'] = batch_texts
-
+        
+    if hasattr(data_batch[0]['data_samples'], 'corres_matrix'):
+        batch_corres_matrix = [meta['data_samples'].corres_matrix for meta in data_batch]
+        collated_results['data_samples']['corres_matrix'] = batch_corres_matrix
+   
     if hasattr(data_batch[0]['data_samples'], 'is_detection'):
         # detection flag
         batch_detection = [meta['data_samples'].is_detection
                            for meta in data_batch]
         collated_results['data_samples']['is_detection'] = torch.tensor(
             batch_detection)
-
+    
     return collated_results

@@ -10,8 +10,9 @@ from mmengine.runner import Runner
 
 from mmyolo.registry import RUNNERS
 from mmyolo.utils import is_metainfo_lower
+import sys
 
-
+# sys.path.insert(0, "/root/Contrastive-YOLO-World")
 # TODO: support fuse_conv_bn
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -63,7 +64,7 @@ def parse_args():
         choices=['none', 'pytorch', 'slurm', 'mpi'],
         default='none',
         help='job launcher')
-    parser.add_argument('--local_rank', type=int, default=0)
+    parser.add_argument('--local-rank', type=int, default=0)
     args = parser.parse_args()
     if 'LOCAL_RANK' not in os.environ:
         os.environ['LOCAL_RANK'] = str(args.local_rank)

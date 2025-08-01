@@ -10,7 +10,7 @@ from mmengine.runner import Runner
 
 from mmyolo.registry import RUNNERS
 from mmyolo.utils import is_metainfo_lower
-
+import sys
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
@@ -44,7 +44,7 @@ def parse_args():
         choices=['none', 'pytorch', 'slurm', 'mpi'],
         default='none',
         help='job launcher')
-    parser.add_argument('--local_rank', type=int, default=0)
+    parser.add_argument('--local-rank', type=int, default=0)
     args = parser.parse_args()
     if 'LOCAL_RANK' not in os.environ:
         os.environ['LOCAL_RANK'] = str(args.local_rank)

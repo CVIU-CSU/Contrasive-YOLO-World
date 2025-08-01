@@ -1,0 +1,24 @@
+pronormoblast
+early normoblast
+polychromatic normoblast
+orthochromatic normoblast
+erythrocyte
+cell mitosis
+myeloblast
+promyelocyte
+neutrophilic myelocyte
+neutrophilic metamyelocyte
+band neutrophil
+segmented neutrophil
+eosinophil
+basophil
+immature lymphocyte
+lymphocyte
+monoblast
+monocyte
+immature plasma cell
+plasma cell
+megakaryocyte
+naked-nucleus megakaryocyte
+degenerative cell
+platelet

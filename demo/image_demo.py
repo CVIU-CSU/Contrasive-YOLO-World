@@ -14,9 +14,12 @@ from mmdet.utils import get_test_pipeline_cfg
 
 import supervision as sv
 
+import sys
+import os
+
+
 BOUNDING_BOX_ANNOTATOR = sv.BoundingBoxAnnotator(thickness=1)
 MASK_ANNOTATOR = sv.MaskAnnotator()
-
 
 class LabelAnnotator(sv.LabelAnnotator):
 
@@ -47,7 +50,7 @@ def parse_args():
         'text prompts, including categories separated by a comma or a txt file with each line as a prompt.'
     )
     parser.add_argument('--topk',
-                        default=100,
+                        default=200,
                         type=int,
                         help='keep topk predictions.')
     parser.add_argument('--threshold',
@@ -120,7 +123,7 @@ def inference_detector(model,
                                class_id=pred_instances['labels'],
                                confidence=pred_instances['scores'],
                                mask=masks)
-
+    # print("333",detections)
     labels = [
         f"{texts[class_id][0]} {confidence:0.2f}" for class_id, confidence in
         zip(detections.class_id, detections.confidence)
