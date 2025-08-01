@@ -30,6 +30,10 @@
 </div>
 </div>
 
+## Raabin-det Dataset
+
+This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from [https://...], and the refined annotation files are stored in YOLO-World/data.
+
 ## Notice
 
 **YOLO-World is still under active development!**
