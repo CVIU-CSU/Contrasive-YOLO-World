@@ -1,38 +1,6 @@
-<div align="center">
-<img src="./assets/yolo_logo.png" width=60%>
-<br>
-<a href="https://scholar.google.com/citations?hl=zh-CN&user=PH8rJHYAAAAJ">Tianheng Cheng</a><sup><span>2,3,*</span></sup>, 
-<a href="https://linsong.info/">Lin Song</a><sup><span>1,📧,*</span></sup>,
-<a href="https://yxgeee.github.io/">Yixiao Ge</a><sup><span>1,🌟,2</span></sup>,
-<a href="http://eic.hust.edu.cn/professor/liuwenyu/"> Wenyu Liu</a><sup><span>3</span></sup>,
-<a href="https://xwcv.github.io/">Xinggang Wang</a><sup><span>3,📧</span></sup>,
-<a href="https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en">Ying Shan</a><sup><span>1,2</span></sup>
-</br>
-
-\* Equal contribution 🌟 Project lead 📧 Corresponding author
-
-<sup>1</sup> Tencent AI Lab,  <sup>2</sup> ARC Lab, Tencent PCG
-<sup>3</sup> Huazhong University of Science and Technology
-<br>
-<div>
-
-[![arxiv paper](https://img.shields.io/badge/Project-Page-green)](https://wondervictor.github.io/)
-[![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2401.17270)
-<a href="https://colab.research.google.com/github/AILab-CVC/YOLO-World/blob/master/inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-[![demo](https://img.shields.io/badge/🤗HugginngFace-Spaces-orange)](https://huggingface.co/spaces/stevengrove/YOLO-World)
-[![Replicate](https://replicate.com/zsxkib/yolo-world/badge)](https://replicate.com/zsxkib/yolo-world)
-[![hfpaper](https://img.shields.io/badge/🤗HugginngFace-Paper-yellow)](https://huggingface.co/papers/2401.17270)
-[![license](https://img.shields.io/badge/License-GPLv3.0-blue)](LICENSE)
-[![yoloworldseg](https://img.shields.io/badge/YOLOWorldxEfficientSAM-🤗Spaces-orange)](https://huggingface.co/spaces/SkalskiP/YOLO-World)
-[![yologuide](https://img.shields.io/badge/📖Notebook-roboflow-purple)](https://supervision.roboflow.com/develop/notebooks/zero-shot-object-detection-with-yolo-world)
-[![deploy](https://media.roboflow.com/deploy.svg)](https://inference.roboflow.com/foundation/yolo_world/)
-
-</div>
-</div>
-
 ## Raabin-det Dataset
 
-This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from [https://...], and the refined annotation files are stored in YOLO-World/data.
+This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from (http://dl.raabindata.com/WBC/Second_microscope/Album_4.zip), and the refined annotation files can be found in Contrastive-YOLO-World/data/Raabin-det/Raabin_det_test_instance.json.
 
 ## Notice
 
