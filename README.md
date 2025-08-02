@@ -2,8 +2,11 @@
 
 This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from (http://dl.raabindata.com/WBC/Second_microscope/Album_4.zip), and the refined annotation files can be found in `Contrastive-YOLO-World/data/Raabin-det/Raabin_det_test_instance.json`.
 
+## Weights
 
-## Training
+The trained weights of Contrastive YOLO-World can be downloaded from (https://1drv.ms/u/c/752d9f191ce33dea/EXYBsTG0gJRInSmFBokmpg0B74Z1jP-xjwdtCupm5eW0cQ?e=a3ctep).
+
+## Training.
 
 You can train the model using the following code:
 
