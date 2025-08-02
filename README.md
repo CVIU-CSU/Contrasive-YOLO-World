@@ -12,9 +12,9 @@ export PYTHONPATH="/root/Contrastive-YOLO-World:$PYTHONPATH"
 bash tools/dist_train.sh yolo_world_l_dual_vlpan_2e-4_80e_8gpus_finetune_coco.py 8
 ```
 
-## Evaluating
+## Evaluation
 
-You can also evaluate the model using our provided weights. For example, to test the performance on the Raabin-det dataset, you can run the code:
+You can also evaluate the model using our provided weights, you can run the code:
 
 ```bash
 export PYTHONPATH="/root/Contrastive-YOLO-World:$PYTHONPATH"
