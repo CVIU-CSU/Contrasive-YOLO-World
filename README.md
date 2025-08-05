@@ -6,7 +6,7 @@ This dataset is a refined detection-compatible version of Raabin-WBC. The images
 
 The trained weights of Contrastive YOLO-World can be downloaded from (https://1drv.ms/u/c/752d9f191ce33dea/EXYBsTG0gJRInSmFBokmpg0B74Z1jP-xjwdtCupm5eW0cQ?e=a3ctep). Detailed training log can be seen at (https://1drv.ms/u/c/752d9f191ce33dea/Ef_5K5Kr3fdHp-U79eGMlK0BAGWm2FvrnjcrRmc2QMn8iA?e=qutf8g).
 
-## Training.
+## Training
 
 You can train the model using the following code:
 
