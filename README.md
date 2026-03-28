@@ -1,6 +1,6 @@
 ## Raabin-det Dataset
 
-This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from (http://dl.raabindata.com/WBC/Second_microscope/Album_4.zip), and the refined annotation files can be found in `Contrastive-YOLO-World/data/Raabin-det/Raabin_det_test_instance.json`.
+This dataset is a refined detection-compatible version of Raabin-WBC. The images can be downloaded from (http://dl.raabindata.com/WBC/Second_microscope/Album_4.zip), and the refined annotation files can be found in `MCDC-YOLO/data/Raabin-det/Raabin_det_test_instance.json`.
 
 ## Weights
 
